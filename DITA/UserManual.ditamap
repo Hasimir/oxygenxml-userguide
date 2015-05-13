@@ -29,7 +29,7 @@
   </bookmeta>
   
   <frontmatter collection-type="sequence">
-    <mapref href="productSbjSchemeVals.ditamap" type="subjectScheme"/>
+    <mapref href="submaps/productSbjSchemeVals.ditamap" type="subjectScheme"/>
     <booklists>
       <toc/>
     </booklists>
@@ -37,7 +37,7 @@
   </frontmatter>
   
   <part>
-    <mapref href="keydefs.ditamap"/>
+    <mapref href="submaps/keydefs.ditamap"/>
     <mapref href="reusables/reusables.ditamap"/>
   </part>
   
@@ -61,13 +61,13 @@
     <chapter href="submaps/chapter-predefined-document-types.ditamap"
       product="author developer editor authorEclipse developerEclipse editorEclipse"
       collection-type="sequence" format="ditamap"/>
-    <chapter href="chapter-authoring-customization-guide.ditamap"
+    <chapter href="submaps/chapter-authoring-customization-guide.ditamap"
       product="author authorEclipse  editor editorEclipse" format="ditamap"
       collection-type="sequence"/>
     <chapter href="submaps/chapter-transforming-documents.ditamap"
       product="author authorEclipse editor editorEclipse developer developerEclipse"
       collection-type="sequence" format="ditamap"/>
-    <chapter href="chapter-querying-documents.ditamap"
+    <chapter href="submaps/chapter-querying-documents.ditamap"
       product="editor editorEclipse author authorEclipse developer developerEclipse"
       collection-type="sequence" format="ditamap"/>
     <chapter href="submaps/chapter-debugging.ditamap"
@@ -85,7 +85,7 @@
     <chapter href="submaps/chapter-import.ditamap"
       product="author authorEclipse developer developerEclipse editor editorEclipse"
       collection-type="sequence" format="ditamap"/>
-    <chapter href="chapter-cms-integration.ditamap"
+    <chapter href="submaps/chapter-cms-integration.ditamap"
       product="editor editorEclipse author authorEclipse developer developerEclipse"
       collection-type="sequence" format="ditamap"/>
     <chapter href="submaps/chapter-oxygen-tools.ditamap" format="ditamap" collection-type="sequence"/>
@@ -95,14 +95,14 @@
       collection-type="sequence"/>
     <chapter href="submaps/chapter-configure-application.ditamap" collection-type="sequence"
       format="ditamap"/>
-    <chapter href="chapter-common-problems.ditamap" collection-type="sequence" format="ditamap"/>
+    <chapter href="submaps/chapter-common-problems.ditamap" collection-type="sequence" format="ditamap"/>
     <topicref href="topics/oxygen-shortcuts-list.dita" processing-role="resource-only"/>
     <chapter href="submaps/chapter-using-the-webapp-reviewer.ditamap"
       format="ditamap" product="author editor authorEclipse editorEclipse "
       collection-type="sequence"/>
     <topichead navtitle="Glossary" locktitle="yes"
       product="author developer editor authorEclipse developerEclipse editorEclipse ">
-      <mapref href="glossary.ditamap" collection-type="sequence"/>
+      <mapref href="submaps/glossary.ditamap" collection-type="sequence"/>
     </topichead>
     <topicref href="topics/lost-topics.dita" type="topic" processing-role="resource-only"/>
   </part>
