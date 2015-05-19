@@ -6431,6 +6431,10 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>key.perspectives.layout.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.spellcheck.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -6474,7 +6478,7 @@ ancestor-or-self::node()[self::*[contains(@class," topic/simpletable ") or conta
                                 <String>Advanced</String>
                             </field>
                             <field name="specifiedLayoutPath">
-                                <String>${pd}/../layouts/docTeamLayout.layout</String>
+                                <String>${pd}/layouts/docTeam.layout</String>
                             </field>
                         </perspectivesInfo>
                     </entry>
